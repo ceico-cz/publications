@@ -26,7 +26,7 @@ await octokit.request(
   {
     owner: "ceico-cz",
     repo: "publications",
-    workflow_id: "hello_world.yml",
+    workflow_id: "pages.yml",
     ref: "main",
   },
 );

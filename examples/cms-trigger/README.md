@@ -2,7 +2,7 @@
 
 This example authenticates as the `ceico-publications-cms` GitHub App,
 automatically obtains a short-lived installation token, and dispatches
-`.github/workflows/hello_world.yml` on `main`.
+`.github/workflows/pages.yml` on `main` to generate and deploy the site.
 
 The workflow currently has no required inputs.
 

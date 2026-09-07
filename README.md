@@ -14,4 +14,4 @@ deployed by the `Deploy GitHub Pages` workflow.
 ## CMS integration
 
 See `examples/cms-trigger` for a minimal Octokit example that authenticates as
-the repository's GitHub App and dispatches the Hello World workflow.
+the repository's GitHub App and dispatches the GitHub Pages deployment workflow.
