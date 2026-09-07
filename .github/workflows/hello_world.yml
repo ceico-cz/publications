@@ -1,0 +1,14 @@
+name: Hello World
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  hello-world:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Say hello
+        run: echo "Hello, world!"
