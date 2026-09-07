@@ -1,0 +1,11 @@
+{
+  "name": "ceico-publications-cms-trigger",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dispatch": "node trigger-workflow.mjs"
+  },
+  "dependencies": {
+    "octokit": "^5.0.5"
+  }
+}
